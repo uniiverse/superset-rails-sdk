@@ -1,0 +1,38 @@
+# SwaggerClient::DashboardDatasetSchema
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**cache_timeout** | **Integer** |  | [optional] 
+**column_formats** | **Object** |  | [optional] 
+**column_types** | **Array&lt;Integer&gt;** |  | [optional] 
+**columns** | **Array&lt;Object&gt;** |  | [optional] 
+**database** | [**Database**](Database.md) |  | [optional] 
+**datasource_name** | **String** |  | [optional] 
+**default_endpoint** | **String** |  | [optional] 
+**edit_url** | **String** |  | [optional] 
+**fetch_values_predicate** | **String** |  | [optional] 
+**filter_select** | **BOOLEAN** |  | [optional] 
+**filter_select_enabled** | **BOOLEAN** |  | [optional] 
+**granularity_sqla** | **Array&lt;Array&lt;String&gt;&gt;** |  | [optional] 
+**health_check_message** | **String** |  | [optional] 
+**id** | **Integer** |  | [optional] 
+**is_sqllab_view** | **BOOLEAN** |  | [optional] 
+**main_dttm_col** | **String** |  | [optional] 
+**metrics** | **Array&lt;Object&gt;** |  | [optional] 
+**name** | **String** |  | [optional] 
+**offset** | **Integer** |  | [optional] 
+**order_by_choices** | **Array&lt;Array&lt;String&gt;&gt;** |  | [optional] 
+**owners** | **Array&lt;Integer&gt;** |  | [optional] 
+**params** | **String** |  | [optional] 
+**perm** | **String** |  | [optional] 
+**schema** | **String** |  | [optional] 
+**select_star** | **String** |  | [optional] 
+**sql** | **String** |  | [optional] 
+**table_name** | **String** |  | [optional] 
+**template_params** | **String** |  | [optional] 
+**time_grain_sqla** | **Array&lt;Array&lt;String&gt;&gt;** |  | [optional] 
+**type** | **String** |  | [optional] 
+**uid** | **String** |  | [optional] 
+**verbose_map** | **Hash&lt;String, String&gt;** |  | [optional] 
+
